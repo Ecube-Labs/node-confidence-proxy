@@ -1,0 +1,25 @@
+{
+  "name": "confidence-proxy",
+  "version": "0.1.0",
+  "description": "a node.js Proxy module for hapijs/confidence",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ecube-Labs/node-confidence-proxy.git"
+  },
+  "keywords": [
+    "confidence",
+    "configuration"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ecube-Labs/node-confidence-proxy/issues"
+  },
+  "homepage": "https://github.com/Ecube-Labs/node-confidence-proxy#readme",
+  "dependencies": {
+    "confidence": "^4.0.1"
+  }
+}
