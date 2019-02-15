@@ -17,7 +17,7 @@ function getHandler(obj, prop) {
     const store = new Confidence.Store(obj);
     const converted = store.get(`/${prop.toString()}`, process.env);
 
-    if (converted === undefined && obj[prop] !== undefined) {
+    if (converted === undefined) {
         throw new Error(`Undefined configure: ${prop}`);
     }
 
