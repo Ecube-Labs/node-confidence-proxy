@@ -23,8 +23,11 @@ console.log(config.foo.bar); //A
 // TODO
 
 ## feature
+- Support VS Code's autocompletion for the properties. *Awesome!*
+
 // TODO
 
 ## TODO
 - add test codes
 - custom criteria: now it always use `process.env`
+- // add more TODO
