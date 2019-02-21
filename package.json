@@ -1,6 +1,6 @@
 {
   "name": "confidence-proxy",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "a node.js Proxy module for hapijs/confidence",
   "main": "index.js",
   "scripts": {
