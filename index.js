@@ -30,7 +30,7 @@ function convert(obj, prop) {
     const store = new Confidence.Store(obj);
     const converted = store.get(`/${prop.toString()}`, process.env);
 
-    if (converted === undefined) {
+    if (converted === undefined && obj.$default !== undefined) {
         throw new Error(`Undefined configure: ${prop}`);
     }
 
