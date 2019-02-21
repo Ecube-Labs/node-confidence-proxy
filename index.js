@@ -2,7 +2,7 @@ const Confidence = require('confidence');
 
 function isObject(maybeObj) {
     // 배열 안에 confidence document가 있을 수 있다.
-    return maybeObj instanceof Array || (maybeObj === Object(maybeObj) && typeof maybeObj !== 'function');
+    return (maybeObj instanceof Array) || (maybeObj === Object(maybeObj) && typeof maybeObj !== 'function');
 }
 
 function makeProxy(obj) {
